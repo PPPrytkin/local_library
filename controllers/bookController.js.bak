@@ -150,7 +150,7 @@ exports.book_create_post = [
 			book.save(function (err) {
 				if (err) { return next(err); }
 					res.redirect(book.url);
-				});
+			});
 		}
 	}
 ];
